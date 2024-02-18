@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import AuthProviders from "./AuthProviders";
+import { NavLinks } from "@/constants";
 
 const Navbar = () => {
   const session = {};
